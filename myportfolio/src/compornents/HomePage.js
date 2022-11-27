@@ -1,4 +1,7 @@
 import React from 'react'
+import cImage from "../Images/c.png";
+import javaImage from "../Images/Java.png";
+import pythonImage from "../Images/python.png";
 
 const HomePage = () => {
   return (
@@ -14,12 +17,21 @@ const HomePage = () => {
           触ったことのあるプログラミング言語
         </div>
         <div class='row text-center'>
-          <h4>C</h4>
-          <p>授業で触ったことがある</p>
-          <h4>Java</h4>
-          <p>趣味で触ったことがある</p>
-          <h4>Python</h4>
-          <p>卒業研究で触ったことがある</p>
+          <div class ='col-md-4 services'>
+            <img src={cImage} />
+            <h4>C</h4>
+            <p>授業で触ったことがある</p>
+          </div>
+          <div class ='col-md-4 services'>
+            <img src={javaImage} />
+            <h4>Java</h4>
+            <p>趣味で触ったことがある</p>
+          </div>
+          <div class ='col-md-4 services'>
+            <img src={pythonImage} />
+            <h4>Python</h4>
+            <p>卒業研究で触ったことがある</p>
+            </div>
         </div>
     </div>
   )
