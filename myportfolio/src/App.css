@@ -15,6 +15,17 @@ header{
     z-index: 10;
 }
 
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  /* position: fixed; */
+  width: 100%;
+  z-index: 10;
+}
+
 header .logo h3{
     font-size: 20px;
 }

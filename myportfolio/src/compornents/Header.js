@@ -4,7 +4,7 @@ const Header = () => {
   return (
   <header>
     <div className='logo'>
-        <h3>ポートフォリオ</h3>
+        <h3>弓削林太郎のポートフォリオ</h3>
     </div>
 
     <nav>
@@ -14,9 +14,6 @@ const Header = () => {
             </li>
             <li>
                 <Link to='/tech'>作品</Link>
-            </li>
-            <li>
-                <Link to='/contact'>連絡先</Link>
             </li>
         </ul>
     </nav>

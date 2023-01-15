@@ -18,17 +18,17 @@ const HomePage = () => {
         </div>
         <div class='row text-center'>
           <div class ='col-md-4 services'>
-            <img src={cImage} />
+            <img src={cImage} height="100"/>
             <h4>C</h4>
             <p>授業で触ったことがある</p>
           </div>
           <div class ='col-md-4 services'>
-            <img src={javaImage} />
+            <img src={javaImage} height="100"/>
             <h4>Java</h4>
             <p>趣味で触ったことがある</p>
           </div>
           <div class ='col-md-4 services'>
-            <img src={pythonImage} />
+            <img src={pythonImage} height="100"/>
             <h4>Python</h4>
             <p>卒業研究で触ったことがある</p>
             </div>
